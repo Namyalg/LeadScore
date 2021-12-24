@@ -4,6 +4,7 @@ import dash_core_components as dcc
 from textbx import text_box
 from password import password
 import dash_core_components as dcc
+
 nav = create_navbar()
 username = text_box()
 pswd = password()
